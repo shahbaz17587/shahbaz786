@@ -1,0 +1,187 @@
+.footer-container{
+    background-color: #323A45;
+    color: #ffff;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: #ffff;
+    position: relative;
+}
+.line::after{
+    content: "About Us";
+    background-color: #323A45;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: -10px;
+    padding: 0 10px;
+}
+.footer-content{
+    padding: 10x;
+    font-size: 12px;
+}
+.ads .span.address{
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 600;
+    float: left;
+    width: 25%;
+}
+.ads{
+    margin-bottom: -10px;
+}
+.ads i.fa{
+    float: left;
+    margin: 2px 0 0 0 ;
+    letter-spacing: 10px;
+}
+.line-second{
+    width: 100%;
+    height: 10px;
+    background-color: #ffff;
+    position: relative;
+}
+.line-second::after{
+    content: "RECENT POSTS";
+    background-color: #323A45;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: -10px;
+    padding: 0 10px;
+}
+.line-third{
+    width: 100%;
+    height: 10px;
+    background-color: #ffff;
+    position: relative;
+}
+.line-third::after{
+    content: "TWITTER";
+    background-color: #323A45;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: -10px;
+    padding: 0 10px;
+}
+.line-forth{
+    width: 100%;
+    height: 10px;
+    background-color: #ffff;
+    position: relative;
+}
+.line-forth::after{
+    content: "FLICKR GALLERY";
+    background-color: #323A45;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: -10px;
+    padding: 0 10px;
+}
+.posts{
+    float: left;
+}
+
+.posts li{
+    list-style-type: none;
+}
+.posts a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #ffff;
+
+}
+.posts a:hover{
+    color: #8CBE45;
+}
+.posts li::before{
+    content: "";
+    font-family: FontAwesome;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.posts span{
+    color: #919191;
+    font-size: 12px;
+    margin: 0 0 6px;
+    font-weight: 600;
+    display: block;
+}
+.twitter{
+    margin-left: 20px;
+    position: relative;
+}
+.twitter::before{
+    font-family: fontawesome;
+    content: "";
+    font-size: 16px;
+    padding-right: 10px;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+}
+.twitter a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+}
+.twitter a:hover{
+    color: #8CBE45;
+    text-decoration: none;
+}
+.twitter span{
+    color: #ffff;
+    font-size: 14px;
+}
+.twitter span.date{
+    color: #e3e3e3;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    font-size: 14px;
+}
+.last-container{
+    background-color: #292F38;
+}
+.last-container span{
+    color: #aaaaaa;
+    font-size: 14px;
+}
+.last-container a.yahoo{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition:color 0.5s ease ;
+}
+.last-container a.yahoo:hover{
+    color: #aaaaaa;
+
+}
+.icon-first{
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    color: #aaaaaa;
+    list-style-type: none; 
+    float: right;
+    margin-left: 10px;
+}
+.icon-first:hover{
+    background-color: #1877F2;
+    border-radius: 5px;
+}
+.facebook-icon {
+    display: inline-block;
+    font-size: 20px; 
+    text-decoration: none;
+    line-height: 40px;
+    color: #aaaaaa;
+    transition: color 0.3s ease;
+  }
+  .facebook-icon:hover{
+    color: #ffffff;
+  }

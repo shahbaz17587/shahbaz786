@@ -1,0 +1,961 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="port.css">
+            <link rel="stylesheet" href="content.css">
+            <link rel="stylesheet" href="footer.css">
+            <link rel="stylesheet" href="animation.css">
+            
+            </style>
+        </head>
+        <body>
+            <header id="header">
+                <div class="container-fluid overflow-hidden">
+                    
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-sm-12 d-flex justify-content-center py-5">
+                            <img src="logo.png" alt="error">
+                        </div>
+                    </div>
+                    <div class="row d-lg-block d-sm-none" style="display: flex;justify-content: space-between;" id="drop-menu-main">
+<!-- 992 above navbar -->
+                        <div class="col-lg-12 d-flex justify-content-center" >
+                            <div class="navbar navbar-expand-lg navbar-dark d-lg-block d-sm-none" id="drop-menu" style="z-index: 1;">
+                                <ul class="navbar-nav font-weight-bold " id="my-bar">
+                                    <li class="nav-item item1 " id="page-home" ><a href="" class="nav-link dropdown-toggle main-a" >HOME</a>
+                                    <ul class="nav drop1 .position-absolute">
+                                        <li class="list1 nav-item">
+                                            <a href="" class="anc1 nav-link">Home1</a>
+                                        </li>
+                                        <li class=" list1 nav-item">
+                                            <a href="" class="anc1 nav-link">Home2</a>
+                                        </li>
+                                        <li class=" list1 nav-item">
+                                            <a href="" class="anc1 nav-link">Home3</a>
+                                        </li>
+                                        <li class=" list1 nav-item">
+                                            <a href="" class="anc1 nav-link">Home4</a>
+                                        </li>
+                                        <li class=" list1 nav-item">
+                                            <a href="" class="anc1 nav-link">Home5</a>
+                                        </li>
+                                    </ul>
+                                
+                                    </li>
+                                    <li class="nav-item item1 " id="shortcodes"><a href="" class="nav-link dropdown-toggle main-a">SHORTCODES</a>
+                                    <ul class="nav dropdown2">
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc2">Elements</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc2">Form Elements</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc2">Columns</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc2">Forma Columns</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc2">Typhography</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc2">Priicing Table</a>
+                                        </li><li class="nav-item">
+                                            <a href="" class="nav-link anc2">Animation</a>
+                                        </li><li class="nav-item">
+                                            <a href="" class="nav-link anc2">Icons</a>
+                                        </li>
+                                    
+                                    </ul>
+                                    </li>
+                                    
+                                    <li class="nav-item page-main item1" ><a href="" class="nav-link main-a dropdown-toggle">PAGES</a>
+                                        <div class="dropdown_menu">
+                                    <ul class="nav drop3" >
+                                        <li class="nav-item list-about" >
+                                            <a href="" class="nav-link anc3 about">about<i class="fas fa-caret-right float-lg-right"></i></a>
+                                            <ul class="nav child-drop dropdown_menu-1">
+                                                <li class="nav-item">
+                                                    <a href="" class="child1">about us 1</a>
+                                                </li>
+                                                    <li class="nav-item">
+                                                    <a href="" class="child1">about us 2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc3">services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc3">faq</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc3">cart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc3">shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc3">right sidebar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc3">left sidebar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anc3">404 pages</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                    </li>
+                                    <li class="nav-item item1"><a href="" class="nav-link portfolio   dropdown-toggle text-white">portfolio</a> 
+                                        <ul class="drop4 nav">
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link anch-4">portfolio classic<i class="fas fa-caret-right float-lg-right"></i></a>
+                                                <ul class="nav drop4-child">
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1 text-black">portfolio classic 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">portfolio classic 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">portfolio classic 3</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link anch-4">portfolio masnory<i class="fas fa-caret-right float-lg-right"></i></a>
+                                                <ul class="nav drop4-child">
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1 text-black">masnory portfolio 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">masnory portfolio 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">masnory portfolio 3</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link anch-4">portfolio single <i class="fas fa-caret-right float-lg-right"></i></a>
+                                                <ul class="nav drop4-child">
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1 text-black">portfolio single 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">portfolio single 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">portfolio single 3</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item item1"><a href="" class="nav-link portfolio   dropdown-toggle text-white">blog</a>
+                                        <ul class="drop4 nav">
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link anch-4">masnory blog style<i class="fas fa-caret-right float-lg-right"></i></a>
+                                                <ul class="nav drop4-child">
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1 text-black">masnory blog style 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">masnory blog style 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class=" a-classic1">masnory blog style 3</a>
+                                                    </li>
+                                                    
+
+                                                </ul>
+                                            </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="nav-link anch-4">classic blog image<i class="fas fa-caret-right float-lg-right"></i></a>
+                                                    <ul class="nav drop4-child">
+                                                        <li class="nav-item">
+                                                            <a href="" class=" a-classic1 text-black">large image</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="" class=" a-classic1">midium image</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="nav-link anch-4">single post image</a></li>         
+                                        </ul>
+                                        </li>
+                                        <li class="nav-item item1"><a href="" class="nav-link portfolio   dropdown-toggle text-white">contant</a>
+                                            <ul class="drop4 nav">
+                                                <li class="nav-item">
+                                                    <a href="" class="nav-link anch-4">contant 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link anch-4">contant 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link anch-4">contant 3</a>
+                        </li>
+
+                                </ul>  
+                            </div>
+ <!-- 992 above amaze -->
+                            <ul class="amaze">
+                                <li><span class="text-white dropdown dropdown-toggle " data-toggle="dropdown">hi,amaze</span>
+                                <div class="dropdown-menu">
+                                    <a href="" class="dropdown-item">my account</a>
+                                    <a href="" class="dropdown-item">chectout</a>
+                                    <a href="" class="dropdown-item">cart</a>
+                                    <a href="" class="dropdown-item">shop</a>
+                                </div>
+                                </li>
+                                <li><span class="text-white"><i class="fa fa-shopping-cart"></i></span>
+                                <span class="badge  text-white border border-white btn-outline-secondary position-absolute ml-n2">1</span>
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                            </div>
+                           
+<!-- 992 down navbar -->
+                            <div class="header-responsive-content d-lg-none">
+<!-- 992 down icon -->         <div id="icon-navbar">
+                                    <img src="nv-1.png" alt="error" style="width: 25px;height: 25px;">
+                                </div>
+<!-- amaze 992 down-->              <ul class="amaze2" style="color: #ffffff;background-color:#585858;        padding:20px 15px;font-size: 14px;">
+                                    <div><span class="dropdown dropdown-toggle" data-toggle="dropdown">hi,amaze</span>
+                                    <div class="dropdown-menu">
+                                        <a href="" class="dropdown-item">my account</a>
+                                        <a href="" class="dropdown-item">chectout</a>
+                                        <a href="" class="dropdown-item">cart</a>
+                                        <a href="" class="dropdown-item">shop</a>
+                                    </div>
+                                    <span class="text-white ml-2"><i class="fa fa-shopping-cart"></i></span>
+                                    <span class="badge  text-white border border-white btn-outline-secondary position-absolute ml-n2 mt-n2" style="border-radius: 50%;z-index: 1;">1</span>
+                                    </div>
+                                    
+                                </ul>
+                            </div>
+                    <div class="container-fluid main-animation-first-second-third mt-lg-5" style="position: relative;">
+                        <div class="slider-nav">
+                            <span class="prev">&#10094;</span>
+                            <span class="next">&#10095;</span>
+                        </div>
+                        <div class="slides d-flex">
+                            <div class="row animation">
+                                 <div class="offset-lg-2"></div>
+                            <div class="col-lg-8 col-sm-12">              
+ <!--animation first start-->                   
+                           <div class="animation-first" >
+                            <div class="animation-first-text">
+                                <div class="first-heading-text">Say Hellow To <span style="color: rgb(140, 190, 69);">Amaze</span></div>
+                                <div class=""></div>
+                                <div class=" both-text second-text"
+                                 >Creative and Elegant Solutions</div>
+                                <div class=""></div>
+                                <div class="both-text third-text" >Amaze Is Simple And Elegant</div>
+                                <div class=""></div>
+                                <div class="both-text forth-text">Packet With Tonns Of Features</div>
+                                <div></div>
+                                <a href="" class="button a-started">Get Started</a>
+                            </div>
+                            <div class="animation-first-img" style="width: 399.99px;height: 321.99px;">
+                                <img class="animFirst" src="slider-boy1.png" alt="error" class="img-fluid">
+                            </div>
+                        </div>
+ <!--animation first close-->                      
+                </div>
+                    <div class="offset-lg-2"></div>
+                </div>
+                <div class="row animation">
+                    <div class="offset-lg-2"></div>
+               <div class="col-lg-8 col-sm-12">              
+<!--animation second start-->                     
+               <div class="animation-second ">
+                   <div class="animation-second-img">
+                       <img  class="second-img" src="laptop-image.png" alt="error">
+                   </div>
+                   
+                   <div class="animation-second-text">
+                       <div class="s-first-text first-third">Responsive Design</div>
+                       <div></div>
+                       <div class="s-second-text second-forth">Resolution Slider</div>
+                       <div></div>
+                       <div class="s-third-text first-third">Simply Design</div>
+                       <div></div>
+                       <div class="s-forth-text second-forth">Resolution Frame</div>
+                   </div>
+               </div>
+<!--animation second close-->                                            
+       </div>
+       <div class="offset-lg-2"></div>
+</div>
+                    <div class="row animation">
+                            <div class="offset-lg-2"></div>
+                            <div class="col-lg-8 col-sm-12">                                   
+ <!--animation third start-->   
+                        <div class="animation-third">
+                            <div class="animation-third-img">
+                                <img class="thirdimg" src="slider-girl.png" alt="error">
+                            </div>
+                            <div class="animation-third-text">
+                                <div class="third-first-Text">Amaze Template</div>
+                                <div class="third-second-Text">A Responsive Multipurpose Them</div>
+                                <div class="third-third-Text">For Your Preious World</div>
+                            </div>
+                        </div>
+ <!--animation third end-->                      
+                    </div>
+                </div>
+                    <div class="offset-lg-2"></div> 
+            </div>
+                </div>
+        </div>
+            </div>
+                </div>
+            </header>
+            <div class="secondsss">
+            <div class="container second-container">
+                <div class="row">
+                    <div class="col">
+                        <div class="accordain-main">
+                    <div class="accordain">
+                    <div class="accordian-item d-lg-none">
+                        <div class="accordain-main-item">
+                            <div class="accordain-title"><span class="home-title">Home</span>
+                          <div class="plus-div"><span class="plus-icon">+</span></div>
+                        </div>
+                            <div class="accordain-content">
+                                <div class="ul-content-list">
+                                    <div class="li-content-list"><a href="">Home 1</a></div>
+                                    <div class="li-content-list"><a href="">Home 2</a></div>
+                                    <div class="li-content-list"><a href="">Home 3</a></div>
+                                    <div class="li-content-list"><a href="">Home 4</a></div>
+                                    <div class="li-content-list"><a href="">Home 5</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordain-main-item">
+                            <div class="accordain-title"><span class="home-title">SHORTCODES</span>
+                                <div class="plus-div"><span class="plus-icon">+</span></div>
+                            </div>
+                            <div class="accordain-content">
+                                <div class="ul-content-list">
+                                    <div class="li-content-list"><a href="">Elements</a></div>
+                                    <div class="li-content-list"><a href="">Form Elements</a></div>
+                                    <div class="li-content-list"><a href="">Columns</a></div>
+                                    <div class="li-content-list"><a href="">Forma Columns</a></div>
+                                    <div class="li-content-list"><a href="">Typhography</a></div>
+                                    <div class="li-content-list"><a href="">Priicing Table</a></div>
+                                    <div class="li-content-list"><a href="">Animation</a></div>
+                                    <div class="li-content-list"><a href="">Ions</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordain-main-item">
+                            <div class="accordain-title" class="home-title"><span>PAGES</span>
+                          <div class="plus-div"><span class="plus-icon">+</span>
+                        </div>
+                        </div>
+                            <div class="accordain-content">
+                                <div class="ul-content-list">
+                                    <div class="li-content-list sub-title"><a href="">about</a>
+                          <div class="sub-plus-div"><span class="sub-plus-icon text-white">+</span></div>
+
+                                    </div>
+                                    <div class="main-li-sub-list">
+                                    <div class="li-content-sub-list"><a href="">about us 1</a></div>
+                                    <div class="li-content-sub-list"><a href="">about us 2</a></div></div>
+                                    <div class="li-content-list"><a href="">services</a></div>
+                                    <div class="li-content-list"><a href="">faq</a></div>
+                                    <div class="li-content-list"><a href="">cart</a></div>
+                                    <div class="li-content-list"><a href="">shop</a></div>
+                                    <div class="li-content-list"><a href="">right sidebar</a></div>
+                                    <div class="li-content-list"><a href="">left sidebar</a></div>
+                                    <div class="li-content-list"><a href="">404 pages</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordain-main-item">
+                            <div class="accordain-title"><span>portfolio</span>
+                                <div class="plus-div"><span class="plus-icon">+</span>
+                                </div>
+                            </div>
+                            <div class="accordain-content">
+                                <div class="ul-content-list">
+                                    <div class="li-content-list sub-title"><a href="">portfolio classic</a>
+                                        <div class="sub-plus-div"><span class="sub-plus-icon text-white">+</span></div>
+                                    </div>
+                                    <div class="main-li-sub-list">
+                                    <div class="li-content-sub-list"><a href="">portfolio classic 1</a></div>
+                                    <div class="li-content-sub-list"><a href="">portfolio classic 2</a></div>
+                                    <div class="li-content-sub-list"><a href="">portfolio classic 3</a></div>
+                                </div>
+                            </div>
+                             <div class="ul-content-list">
+                                    <div class="li-content-list sub-title"><a href="">portfolio masnory</a>
+                                        <div class="sub-plus-div"><span class="sub-plus-icon text-white">+</span></div>
+                                    </div>
+                                    <div class="main-li-sub-list">
+                                        <div class="li-content-sub-list"><a href="">portfolio masnory 1</a></div>
+                                        <div class="li-content-sub-list"><a href="">portfolio masnory 2</a></div>
+                                        <div class="li-content-sub-list"><a href="">portfolio masnory 3</a></div>
+                                    </div>
+                                </div>
+                                <div class="ul-content-list">
+                                    <div class="li-content-list sub-title"><a href="">portfolio single</a><div class="sub-plus-div"><span class="sub-plus-icon text-white">+</span></div></div>
+                                    <div class="main-li-sub-list">
+                                        <div class="li-content-sub-list"><a href="">portfolio single 1</a></div>
+                                        <div class="li-content-sub-list"><a href="">portfolio single 2</a></div>
+                                        <div class="li-content-sub-list"><a href="">portfolio single 3</a></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="accordain-main-item">
+                            <div class="accordain-title"><span>blog</span>
+                                <div class="plus-div"><span class="plus-icon">+</span>
+                                </div>
+                            </div>
+                            <div class="accordain-content">
+                                <div class="ul-content-list">
+                                    <div class="li-content-list sub-title"><a href="">masnory blog style</a><div class="sub-plus-div"><span class="sub-plus-icon text-white">+</span></div></div>
+                                    <div class="main-li-sub-list">
+                                    <div class="li-content-sub-list"><a href="">masnory blog style 1</a></div>
+                                    <div class="li-content-sub-list"><a href="">masnory blog style 2</a></div>
+                                    <div class="li-content-sub-list"><a href="">masnory blog style 3</a></div>
+                                </div>
+                                    <div class="li-content-list sub-title"><a href="">classic blog image</a><div class="sub-plus-div"><span class="sub-plus-icon text-white">+</span></div></div>
+                                    <div class="main-li-sub-list">
+                                        <div class="li-content-sub-list"><a href="">large image</a></div>
+                                        <div class="li-content-sub-list"><a href="">midium image</a></div>
+                                    </div>
+                                    <div class="li-content-list"><a href="">single post image</a></div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordain-main-item">
+                            <div class="accordain-title"><span>contant</span>
+                                <div class="plus-div"><span class="plus-icon">+</span>
+                                </div>
+                            </div>
+                            <div class="accordain-content">
+                                <div class="ul-content-list">
+                                    <div class="li-content-list"><a href="">contant 1</a></div>
+                                    <div class="li-content-list"><a href="">contant 2</a></div>
+                                    <div class="li-content-list"><a href="">contant 3</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col container-second py-5"><p class="text-center p-first">Amaze ! complete</p>
+                    <p class="text-center  p-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni autem a unde debitis nesciunt sit eum porro, molestias deserunt voluptatem!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="container third-container">
+                <div class="row">
+                    <div class="card-group third-card-main">
+                    <div class="card card-class gx-0 mb-5">
+                        <img src="cart1.jpg" alt="error" class="card-img">
+                        <span class="icon"><i class="fa fa-globe "></i></span>
+                    <div class="card-body car-first">
+                        <h3 class="card-title carttitle-first ">WEB DESGIN</h3>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, hic fugit et mollitia repellendus fugiat dolor laborum reiciendis doloribus rem.</p>
+                        <span class="badge badge-pill btn btn-outline border border-white text-white read px-4 ">Read More</span>
+                    </div>
+                    </div>
+                    <div class="card card-class2 gx-0 mb-5">
+                        <div class="card-body car-second">
+                            <h3 class="card-title carttitle-second " >web desgin</h3>
+                            <p class="card-text2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, hic fugit et mollitia repellendus fugiat dolor laborum reiciendis doloribus rem.</p>
+                            <span class="badge badge-pill btn btn-outline border border-white text-white read2 px-4 ">Read More</span>
+                        <span class="icon"><i class="fa fa-briefcase "></i></span>
+                    </div>
+                    <img src="cart2.jpg" alt="error" class="card-img">
+                    </div>
+
+                    <div class="card card-class gx-0 mb-5">
+                        <img src="cart3.jpg" alt="error" class="card-img">
+                        <span class="icon"><i class="fa fa-mobile "></i></span>
+                    <div class="card-body car-first">
+                        <h3 class="card-title carttitle-first ">responsive desgin</h3>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, hic fugit et mollitia repellendus fugiat dolor laborum reiciendis doloribus rem.</p>
+                        <span class="badge badge-pill btn btn-outline border border-white text-white read px-4 ">Read More</span>
+                    </div>
+                    </div>
+            </div>
+        </div>
+            </div>
+
+            <div class="container-fluid container-forth">
+                <div class="container cont-first py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="first-line mb-5"></div>
+                            <p class="lead const-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, quo. Suscipit incidunt voluptas consequuntur excepturi exercitationem, ab nesciunt aspernatur ipsum rerum dolorum, dolores culpa. Consequuntur minima quos qui dolorum amet libero ipsa itaque facilis ducimus.</p>
+                           
+                            <ul class="unorder-list">
+                                <li class="unorder-li"><a href="" class="lead">Donec convallis, metus nec tempus aliquet</a></li>
+                                <li class="unorder-li"><a href="" class="lead">Aenean commodo ligula eget dolor</a></li>
+                                <li class="unorder-li"><a href="" class="lead">Lorem ipsum dolor sit amet cons adipiscing</a></li>
+                                <li class="unorder-li"><a href="" class="lead">Nunc aliquet tincidunt metus sit amet</a></li>
+                                <li class="unorder-li"><a href="" class="lead">Accumsan vulputate faucibus turpis dictum</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="devices.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col"><h2 class="text-center mb-3 we-have">We have 25 years of experience</h2>
+                        <p class="text-center col-para">We are the leading provider of client solutions with over 10 years of experience helping businesses to findcomprehensive solutions and high growth for your business.</p>
+                    </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-3 briefcase-first">
+                            <span class="briefcase">
+                                <i class="fa fa-briefcase"></i>
+                            </span>
+                            <div class="timer"><p class="text-center class-100"><b>100%</b></p>
+                                <h3 class="text-center timer-h3">Completed</h3></div>    
+                    </div>
+                    <div class="col-md-3 briefcase-first">
+                        <span class="briefcase">
+                            <i class="fa fa-user"></i>
+                        </span>
+                        <div class="timer"><p class="text-center class-100"><b>63K</b></p>
+                            <h3 class="text-center timer-h3">Customers</h3></div>    
+                </div>
+                <div class="col-md-3 briefcase-first">
+                    <span class="briefcase">
+                        <i class="fa fa-trophy"></i>
+                    </span>
+                    <div class="timer"><p class="text-center class-100"><b>18</b></p>
+                        <h3 class="text-center timer-h3">Awards</h3></div>    
+            </div>
+            <div class="col-md-3 briefcase-second ">
+                <span class="briefcase">
+                    <i class="fa fa-life-ring"></i>
+                </span>
+                <div class="timer"><p class="text-center class-100"><b>63</b></p>
+                    <h3 class="text-center timer-h3">Replied</h3></div>    
+        </div>
+                </div>
+            </div>
+            <div class="container-fluid main-img py-2 my-3">
+                <div class="container py-5">
+                    <div class="row flex-nowrap overflow-hidden slides-second">
+                        <div class="col-lg-4 col-md-6 col-12 pb-5 s-slider">
+                            <span class="back-user d-inline-block mt-3"><i class="fa fa-user"></i></span>
+                            <h3 class="back-h3 mt-4">web design & development</h3>
+                            <h5 class="back-h5">dolore ipsum</h5>
+                            <p class="back-p py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia numquam ipsum officia minima, assumenda sit eius rerum soluta! Dicta debitis officia,</p>
+                            <div class="info">
+                                <a href="" class="btn btn-default">MORE INFO</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 pb-5 s-slider">
+                            <span class="back-user d-inline-block mt-3"><i class="fa fa-suitcase"></i></span>
+                            <h3 class="back-h3 mt-4">finance management</h3>
+                            <h5 class="back-h5">dolore ipsum</h5>
+                            <p class="back-p py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia numquam ipsum officia minima, assumenda sit eius rerum soluta! Dicta debitis officia,</p>
+                            <div class="info">
+                                <a href="" class="btn btn-default">MORE INFO</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 pb-5 s-slider">
+                            <span class="back-user d-inline-block mt-3"><i class="fa fa-rocket"></i></span>
+                            <h3 class="back-h3 mt-4">clear & responsive design</h3>
+                            <h5 class="back-h5">dolore ipsum</h5>
+                            <p class="back-p py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia numquam ipsum officia minima, assumenda sit eius rerum soluta! Dicta debitis officia,</p>
+                            <div class="info">
+                                <a href="" class="btn btn-default">MORE INFO</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 pb-5 s-slider">
+                            <span class="back-user d-inline-block mt-3"><i class="fa fa-rocket"></i></span>
+                            <h3 class="back-h3 mt-4">clear & responsive design</h3>
+                            <h5 class="back-h5">dolore ipsum</h5>
+                            <p class="back-p py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia numquam ipsum officia minima, assumenda sit eius rerum soluta! Dicta debitis officia,</p>
+                            <div class="info">
+                                <a href="" class="btn btn-default">MORE INFO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container mt-3">
+                <div class="row flex-nowrap overflow-hidden slides-second">
+                    <div class="col-md-6 col-12 pt-5 mainimg my-4 s-slider">
+                        <div class="left-img-div">
+                      <img src="horizonta1.jpg" alt="" class="left-img">
+                    </div>
+                      <div class="right-content">
+                        <div class="right-content-h3">
+                        <h3>Steve Thomas</h3>
+                        <span>web desginer</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi accusantium expedita placeat officia, nostrum velit, eum eveniet id cumque facilis recusandae fuga tempora porro. Aspernatur nesciunt nostrum ipsum praesentium sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, accusantium? Dicta dolores natus earum aliquid?</p>
+                    </div>
+                      </div>
+                        </div>
+                        <div class="col-md-6 col-12 pt-5 mainimg my-4 s-slider" id="hori2">
+                            <div class="left-img-div">
+                          <img src="horizontal2.jpg" alt="" class="left-img">
+                        </div>
+                          <div class="right-content">
+                            <div class="right-content-h3">
+                            <h3>Kristiana</h3>
+                            <span>web desginer</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi accusantium expedita placeat officia, nostrum velit, eum eveniet id cumque facilis recusandae fuga tempora porro. Aspernatur nesciunt nostrum ipsum praesentium sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, accusantium? Dicta dolores natus earum aliquid?</p>
+                        </div>
+                          </div>
+                            </div>
+                            <div class=" col-md-6 col-12 pt-5 mainimg my-4 s-slider">
+                                <div class="left-img-div">
+                              <img src="horizonta1.jpg" alt="" class="left-img">
+                            </div>
+                              <div class="right-content">
+                                <div class="right-content-h3">
+                                <h3>Steve Thomas</h3>
+                                <span>web desginer</span>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi accusantium expedita placeat officia, nostrum velit, eum eveniet id cumque facilis recusandae fuga tempora porro. Aspernatur nesciunt nostrum ipsum praesentium sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, accusantium? Dicta dolores natus earum aliquid?</p>
+                            </div>
+                              </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-client py-5">
+                <div class="container">
+                <div class="client-first my-3"></div>
+                <div class="container"> 
+                    <div class="client-container">
+                    <div class="row flex-nowrap overflow-hidden">
+                    <div class="col-md-6 col-12 d-flex s-slider">
+                    <div class="client-1">
+                        <img src="cl1.png" alt="">
+                    </div>
+                    <div class="client-1 d-md-block d-none">
+                        <img src="cl2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 d-md-flex d-none s-slider" class="client-second">
+                    <div class="client-1">
+                        <img src="cl3.png" alt="">
+                    </div>
+                    <div class="client-1">
+                        <img src="cl4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 d-flex s-slider">
+                    <div class="client-1">
+                        <img src="cl1.png" alt="">
+                    </div>
+                    <div class="client-1 d-md-block d-none">
+                        <img src="cl2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="latest py-3">
+
+            <div class="container">
+                <div class="latest-first mt-3"></div>
+                <div class="row flex-nowrap overflow-hidden">
+                    <div class="col-lg-4 col-md-6 col-12 my-5 s-slider">
+                        <div class="post-main">
+                            <div class="zoom-in">
+                                <img src="la1.jpg" alt="" class="latest-img ">
+                            </div>
+                                <div class="slide-data">
+                                <span class="span-one">PPR</span>
+                                <span class="span-two">10</span>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-title">
+                                    <h3>Latest News Post</h3>
+                                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae rerum recusandae similique temporibus, possimus quibusdam vel Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="post-button">
+                                    <i class="fa fa-users"></i>
+                                    <a href="" class="anchor a-first">Admin</a>
+                                    <i class="fa fa-comments"></i>
+                                    <a href="" class="anchor a-second">2</a>
+                                    <i class="fa fa-thumbs-up"></i>
+                                    <a href="" class="anchor a-third">5 Likes</a>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 my-5 s-slider">
+                                <div class="post-main">
+                                    <div class="zoom-in">
+                                        <img src="la2.jpg" alt="" class="latest-img ">
+                                    </div>
+                                        <div class="slide-data">
+                                        <span class="span-one">PPR</span>
+                                        <span class="span-two">10</span>
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="post-title">
+                                            <h3>Latest News Post</h3>
+                                            <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae rerum recusandae similique temporibus, possimus quibusdam vel Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="post-button">
+                                            <i class="fa fa-users"></i>
+                                            <a href="" class="anchor a-first">Admin</a>
+                                            <i class="fa fa-comments"></i>
+                                            <a href="" class="anchor a-second">2</a>
+                                            <i class="fa fa-thumbs-up"></i>
+                                            <a href="" class="anchor a-third">5 Likes</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12 my-5 s-slider">
+                                        <div class="post-main">
+                                            <div class="zoom-in">
+                                                <img src="la3.jpg" alt="" class="latest-img ">
+                                            </div>
+                                                <div class="slide-data">
+                                                <span class="span-one">PPR</span>
+                                                <span class="span-two">10</span>
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="post-title">
+                                                    <h3>Latest News Post</h3>
+                                                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae rerum recusandae similique temporibus, possimus quibusdam vel Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="post-button">
+                                                    <i class="fa fa-users"></i>
+                                                    <a href="" class="anchor a-first">Admin</a>
+                                                    <i class="fa fa-comments"></i>
+                                                    <a href="" class="anchor a-second">2</a>
+                                                    <i class="fa fa-thumbs-up"></i>
+                                                    <a href="" class="anchor a-third">5 Likes</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-4 my-5 s-slider">
+                                                <div class="post-main">
+                                                    <div class="zoom-in">
+                                                        <img src="la1.jpg" alt="" class="latest-img ">
+                                                    </div>
+                                                        <div class="slide-data">
+                                                        <span class="span-one">PPR</span>
+                                                        <span class="span-two">10</span>
+                                                    </div>
+                                                    <div class="post-content">
+                                                        <div class="post-title">
+                                                            <h3>Latest News Post</h3>
+                                                            <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae rerum recusandae similique temporibus, possimus quibusdam vel Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                        </div>
+                                                        <div class="post-button">
+                                                            <i class="fa fa-users"></i>
+                                                            <a href="" class="anchor a-first">Admin</a>
+                                                            <i class="fa fa-comments"></i>
+                                                            <a href="" class="anchor a-second">2</a>
+                                                            <i class="fa fa-thumbs-up"></i>
+                                                            <a href="" class="anchor a-third">5 Likes</a>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid consulation-main mt-n4">
+                    <div class="row  consulation-second">
+                        <div class="col-md-6">
+                            <div class="consulation">
+                            <div class="consulation-first">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col px-4 py-4">
+                                        <h3 class="py-2">GET A FREE CONSULTATION</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sagittis justo, in viverra lorem molestie volutpat. Phasellus at rhoncus eros. Donec consequat libero nibh, vel interdum nibh dapibus lacinia. Nam vehicula elit at erat vehicula, vitae ultrices dui tincidunt.</p>
+                                    </div>
+                                   
+                                    </div>
+                                    </div>
+        
+                                </div>
+                            </div></div>
+                            <div class="col-md-6">
+                                <div class="offset-md-1"></div>
+                                <div class="col-md-11 px-5 py-4">
+                                    <div class="row">
+                                    <form action="">
+                                        <div class="form-group mt-4">
+                                        <label for="" class="text-white" ><h5>I Would Like To Discus</h5></label>
+                                        <select name="cars" id="cars" form="carform" class="form-control">
+                                            <option>Website Development</option>
+                                            <option>Mobile App Development</option>
+                                            <option>Digital Marketing</option>
+                                            <option>Search Engine Optimization</option>
+                                          </select>
+                                        </div>
+                                        <div class="form-group-inline row mt-4">
+                                            <div class="col-md-6"> 
+                                                 <div class="form-group"> 
+                                                 <input type="text" class="form-control " placeholder="Name*">
+                                                </div>
+                                                </div>
+                                         <div class="col-md-6">
+                                            <div class="form-group"> 
+                                                <input type="text" class="form-control " placeholder="Phone">
+                                               </div>
+                                        </div>
+                                    </div>
+                                    <a href="" class="btn btn-defualt mt-2">SUBMIT</a>   
+                                    </form>
+                    </div>
+                </div>
+                
+                </div>
+                </div>
+
+            </div>
+            </div>
+            <footer>
+                <div class="footer-container">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-3 my-3">
+                            <div class="line mt-3">
+                            </div>
+                            <div class="footer-content">
+                                <p class="my-3">Donec earum rerum hic tenetur ans sapiente delectus, ut aut reiciendise voluptat maiores alias consequaturs aut perferendis doloribus asperiores.</p>
+                                <div class="ads">
+                                    <i class="fa fa-map-marker"></i><span class="address"><b style="margin-right: 10px;">Address</b>  : <p style="display: inline-block;">#2024 Lorem ipsum</p></span>
+                                </div>
+                                <div class="ads">
+                                    <i class="fa fa-user"></i><span class="address"><b style="margin-right: 21px;">Phone</b><p style="display: inline-block;">: (+92)317-4245572</p></span>
+                                </div>
+                                <div class="ads">
+                                    <i class="fa fa-envelope"></i><span class="address"><b style="margin-right: 24px;">Email</b><p style="display: inline-block;">: shahbazakhtarsial@gmail.com</p></span>
+                                </div>
+                            </div>
+                    </div>
+                        <div class="col-md-3 my-3">
+                            <div class="line-second mt-3">
+                            </div>
+                            <ul class="posts my-3 ml-n4">
+                                <li><a href="">Aenean commodo ligula eget dolor</a>
+                                <span>November 07,2020</span>
+                            </li>
+                            <li><a href="">Temporibus autem quibusdam</a>
+                                <span>November 05,2020</span>
+                            </li>
+                            <li><a href="">Debitis aut rerum saepe</a>
+                                <span>November 03,2020</span>
+                            </li>
+                            <li><a href="">Et voluptates repudiandae</a>
+                                <span>November 02,2020</span>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 my-3">
+                            <div class="line-third mt-3">
+                            </div>
+                            <div class="twitter my-3">
+                                <a href=""><b>@shahbaz</b></a>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                <span class="date">12 Jun 2024</span>
+                            </div>  
+                            <div class="twitter my-3">
+                                <a href=""><b>@shahbaz</b></a>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                <span class="date">12 Jun 2024</span>
+                            </div>  
+                            <div class="twitter my-3">
+                                <a href=""><b>@shahbaz</b></a>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                <span class="date">12 Jun 2024</span>
+                            </div>  
+                        </div>
+                        <div class="col-md-3 my-3">
+                            <div class="line-forth mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid last-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="my-4 d-inline-block">© Copyright 2018 Amaze | Powered by</span>
+                            <a href="" class="yahoo">yahoobaba</a>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="social-icon my-3">
+                                <li class="icon-first">
+                                    <a href="https://www.facebook.com" class="facebook-icon" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="icon-first">
+                                    <a href="https://www.facebook.com" class="facebook-icon" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="icon-first">
+                                    <a href="https://www.facebook.com" class="facebook-icon" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="icon-first">
+                                    <a href="https://www.facebook.com" class="facebook-icon" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="icon-first">
+                                    <a href="https://www.facebook.com" class="facebook-icon" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </footer>
+         
+           <script src="port.js"></script>
+
+            
+        </body>
+        </html>
